@@ -1,0 +1,12 @@
+.Playboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &-Row {
+    display: flex;
+    flex-basis: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

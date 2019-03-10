@@ -1,0 +1,9 @@
+.Nav {
+  &-Link {
+    margin: 5px 5px;
+    text-decoration: none;
+  }
+  &-Link:hover {
+    text-decoration: underline;
+  }
+}

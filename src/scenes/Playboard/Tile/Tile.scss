@@ -1,0 +1,15 @@
+.Tile {
+  flex-basis: 33%;
+  margin: 1px;
+  background-color: #999999;
+  border: 1px solid #006600;
+  
+  &--allowed_move {
+    cursor: pointer;
+  }
+  
+  &-Icon {
+    padding: 8px;
+    font-size: 2.5em;
+  }
+}
